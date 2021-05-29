@@ -1,1 +1,1 @@
-# arxivVIewer
+arXiv daily bot publishes interesting articles from arxiv every day.
