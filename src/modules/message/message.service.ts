@@ -13,7 +13,7 @@ export class MessageService {
   sendMessage(text: string) {
     return this.bot.telegram.sendPhoto(
       this.configService.get<string>('CHAT_ID'),
-      { url: 'https://source.unsplash.com/weekly?space' },
+      { url: 'https://source.unsplash.com/1600x900/?science' },
       { parse_mode: 'HTML', caption: text },
     );
   }
