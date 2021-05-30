@@ -22,7 +22,7 @@ export class ArxivService {
       const articlesIds: string[] = [];
       for (let i = 0; i < articles.feed.entry.length; i++) {
          let id = articles.feed.entry[i].id;
-         let title = articles.feed.entry[i].title;
+         let title = articles.feed.entry[i].title.replace(/(\r\n|\n|\r)/gm, "");
          let summary = articles.feed.entry[i].summary.substring(0, 150) + '...';
          title = `<b>${title}</b>\n📚 ${summary}`;
          articlesIds.push(id);
