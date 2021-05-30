@@ -1,1 +1,1 @@
-arXiv daily bot publishes interesting articles from arxiv every day.
+arXiv daily bot publishes interesting articles from arxiv every day to telegram channel https://t.me/arxiv_daily_articles
