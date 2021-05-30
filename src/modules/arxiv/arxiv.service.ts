@@ -10,7 +10,7 @@ import { MessageService } from '../message/message.service';
 export class ArxivService {
   constructor(private readonly messageService: MessageService) {}
 
-  @Cron(CronExpression.EVERY_DAY_AT_11AM)
+  @Cron(CronExpression.EVERY_DAY_AT_12AM)
 //   @Cron('5 * * * * *')
   async publishArticles() {
     try {
