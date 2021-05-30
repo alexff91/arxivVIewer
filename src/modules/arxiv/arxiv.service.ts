@@ -12,7 +12,7 @@ export class ArxivService {
 
 //   @Cron(CronExpression.EVERY_DAY_AT_12AM)
 //   @Cron('5 * * * * *')
-  @Cron('0 12 * * * *')
+  @Cron('2 9 * * * *')
   async publishArticles() {
     try {
       // Get articles
